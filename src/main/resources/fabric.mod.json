@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "id": "keycommand",
+  "version": "${version}",
+  "name": "KeyCommand",
+  "description": "Configura teclas para ejecutar comandos de chat.",
+  "authors": ["Laky"],
+  "environment": "client",
+  "entrypoints": { "client": ["dev.laky.keycommand.KeyCommandClient"] },
+  "depends": { "fabricloader": ">=0.16.0", "minecraft": "~1.21.4", "java": ">=21", "fabric-api": "*" }
+}
